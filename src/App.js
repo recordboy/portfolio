@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import PhoneFormHook from './components/PhoneFormHook';
+import InputClass from './components/InputClass';
+
 class App extends Component {
   render() {
     return (
       <div>
-        <PhoneFormHook />
+        <InputClass />
       </div>
     );
   }
