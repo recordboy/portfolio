@@ -1,13 +1,8 @@
-import React, { Component } from 'react';
-import InputClass from './components/InputClass';
+import React, { useEffect, useState } from 'react';
+import Main from './components/Main';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <InputClass />
-      </div>
-    );
-  }
+const App = () => {
+  return <Main />;
 }
+
 export default App;
